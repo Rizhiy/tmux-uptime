@@ -35,7 +35,7 @@ From the terminal, reload TMUX environment:
 tmux source-file ~/.tmux.conf
 ```
 
-If format strings are added to `status-right`, they should now be visible.
+If format string is added to status-line, it should now be visible.
 
 ## Usage
 Add `#{uptime}` format string to your existing status.
