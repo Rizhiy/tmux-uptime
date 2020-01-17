@@ -18,19 +18,15 @@ Hit `prefix + I` to fetch the plugin and source it.
 ### Manual Installation
 
 Clone the repo:
-
 ```shell
 git clone https://github.com/Rizhiy/tmux-uptime ~/clone/path
 ```
 
 Add this line to the bottom of `.tmux.conf`:
 
-```tmux
-run-shell ~/clone/path/uptime.tmux
-```
+    run-shell ~/clone/path/uptime.tmux
 
 From the terminal, reload TMUX environment:
-
 ```shell
 tmux source-file ~/.tmux.conf
 ```
